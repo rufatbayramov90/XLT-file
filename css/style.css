@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 100vh;
+    background-image: url('../img/stars-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    border-bottom: 1px solid white;
+}
+.navbar .navbar-nav li .nav-link{
+    color: rgb(173, 173, 173);
+    float: right;
+}
+.navbar .navbar-nav li:hover .nav-link{
+    color: white;
+}
+.fa-bars{
+    color: white;
+}
+/* ------------ banner -----*/
+.banner{
+    color: white;
+}
+.banner-group{
+    padding-top: 250px;
+}
+.form-banner{
+    border-radius: 20px;
+    padding: 30px 20px;
+    background-color: rgba(27, 26, 26, 0.452);
+}
+.fa-chevron-down{
+    color: white;
+}
+/* ----------- connect -----*/
+#connect{
+    padding: 80px 0;
+}
+.list-inline .list-inline-item{
+    padding: 15px 20px;
+    border: 2px solid #9B2424;
+    border-radius: 15px;
+}
+.list-inline .list-inline-item .fab{
+    font-size: 25px;
+    color: #9B2424;
+}
+.list-inline .list-inline-item:hover{
+    background-color:#9B2424 ;
+    transition: .3s ease-in-out;
+}
+.list-inline .list-inline-item:hover .fab{
+    color: white;
+}
+/* ----------- who -----*/
+#who{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+}
+.who-col-left-prg{
+    font-size: 18px;
+    opacity: .6;
+}
+.who .btn{
+    padding: 5px 80px;
+}
+.who .btn:hover{
+    color: #9B2424 ;
+    background-color: white;
+}
+/* ----------- work -----*/
+#work{
+    padding: 80px 0;
+}
+.work .card{
+    position: relative;
+}
+/* ----------- why -----*/
+#why{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+}
+.why .fas{
+    color: #9B2424 ;
+}
+.why .fab{
+    color: #9B2424 ;
+}
+.why .fa{
+    color: #9B2424 ;
+}
+/* ----------- customer -----*/
+#customer{
+    padding: 80px 0;
+}
+.carousel .carousel-indicators li{
+   background-color:#9B2424;
+}
+/* ----------- Pricing-----*/
+#pricing{
+    background-color: #F5F5F5;
+    padding: 80px 0;
+}
+.list-group  .list-group-heading{
+    background-color: #9B2424;
+    color: white;
+}
+.list-group .list-group-item a{
+    padding: 5px 120px;
+    margin: 10px 0;
+    border: 1px solid rgb(48, 156, 228);
+    border-radius: 4px;
+    text-decoration: none;
+}
+.list-group .list-group-item a:hover{
+    background-color: rgb(48, 156, 228) ;
+    color: white;
+    transition: .2s ease-in-out;
+}
+/* ----------- contact-----*/
+#contact{
+    padding: 80px 0;
+}
+#contact .row form{
+    margin: 5px auto;
+}
+/* ----------- footer-----*/
+footer{
+    background-color: #484848;
+    color: white;
+    padding: 40px 0;
+}
+footer .list-inline .list-inline-item{
+    border: none;
+    padding: 20px  5px;
+}
+footer .list-inline .list-inline-item:hover{
+    background-color:transparent;
+}
+footer .list-inline .list-inline-item .fab{
+    color: white;
+}
+@media only screen and (max-width:768px){
+    .banner .banner-group .form-banner{
+        display: none;
+    }
+    #connect .row, #who .row, #work .row {
+        text-align: center;
+    }
+    #work .row .card{
+        margin: 10px 120px;
+    }
+}
+@media only screen and (max-width:992px){
+    #banner .banner-group img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .list-group .list-group-item a{
+        padding: 5px 40px;
+        margin: 10px 0;
+    }
+  
+}
+
+
+
+
+
+
+
+
